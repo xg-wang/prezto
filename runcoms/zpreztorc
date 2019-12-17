@@ -43,11 +43,9 @@ zstyle ':prezto:load' pmodule \
   'fasd' \
   'homebrew' \
   'osx' \
-  'ruby' \
   'git' \
   'syntax-highlighting' \
   'history-substring-search' \
-  'contrib-prompt' \
   'prompt'
 
 #
@@ -84,6 +82,7 @@ zstyle ':prezto:module:editor' dot-expansion 'yes'
 
 # Ignore submodules when they are 'dirty', 'untracked', 'all', or 'none'.
 # zstyle ':prezto:module:git:status:ignore' submodules 'all'
+zstyle ':prezto:module:git:alias' skip 'yes'
 
 #
 # GNU Utility

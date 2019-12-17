@@ -18,32 +18,6 @@ autoload -Uz promptinit
   promptinit
   prompt powerlevel10k
 
-# spaceship prompt
-SPACESHIP_TIME_SHOW=true
-SPACESHIP_HG_SHOW=false
-SPACESHIP_RUBY_SHOW=false
-SPACESHIP_ELM_SHOW=false
-SPACESHIP_ELIXIR_SHOW=false
-SPACESHIP_XCODE_SHOW_LOCAL=false
-SPACESHIP_XCODE_SHOW_GLOBAL=false
-SPACESHIP_SWIFT_SHOW_LOCAL=false
-SPACESHIP_SWIFT_SHOW_GLOBAL=false
-SPACESHIP_PHP_SHOW=false
-SPACESHIP_RUST_SHOW=false
-SPACESHIP_HASKELL_SHOW=false
-SPACESHIP_JULIA_SHOW=false
-SPACESHIP_DOCKER_SHOW=false
-SPACESHIP_AWS_SHOW=false
-SPACESHIP_VENV_SHOW=false
-SPACESHIP_CONDA_SHOW=false
-SPACESHIP_PYENV_SHOW=false
-SPACESHIP_DOTNET_SHOW=false
-SPACESHIP_KUBECONTEXT_SHOW=false
-SPACESHIP_TERRAFORM_SHOW=false
-SPACESHIP_GOLANG_SHOW=false
-SPACESHIP_EXIT_CODE_SHOW=true
-
-
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ -f ~/.p10k.zsh ]] && source ~/.p10k.zsh
 
@@ -51,4 +25,3 @@ export VOLTA_HOME="$HOME/.volta"
 [ -s "$VOLTA_HOME/load.sh" ] && . "$VOLTA_HOME/load.sh"
 
 export PATH="$VOLTA_HOME/bin:$PATH"
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
